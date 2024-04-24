@@ -1,9 +1,7 @@
 import {configureStore, combineReducers} from "@reduxjs/toolkit";
-import orderReducer from './reducers/OrderSlice';
 import inventoryReducer from './reducers/InventorySlice'
 
 const rootReducer = combineReducers({
-    orderReducer,
     inventoryReducer
 })
 
