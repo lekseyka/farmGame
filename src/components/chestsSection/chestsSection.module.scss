@@ -1,0 +1,31 @@
+.chestContainer{
+  background: #a28d78;
+  color: #fff;
+  padding: 20px 10px;
+}
+
+.chestContainerTitle {
+  font-size: 20px;
+}
+
+.chestWrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px;
+}
+
+.chestItem {
+  width: 30%;
+  text-align: center;
+}
+
+.chestTitle {
+  margin-bottom: 20px;
+}
+
+.chestImage {
+  display: block;
+  width: 70%;
+  margin: auto;
+}

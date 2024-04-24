@@ -1,0 +1,72 @@
+.inventoryContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+  padding: 20px;
+  flex-wrap: wrap;
+  gap: 10px;
+  max-height: 500px;
+  overflow-y: auto;
+}
+
+.emptyInventory {
+  letter-spacing: 2px;
+  width: 100%;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.item {
+  padding: 10px;
+  border: 2px solid #e59b64;
+  width: 15%;
+  color: #fff;
+  border-radius: 5px;
+
+  .itemTitle.common {
+    color: #fff;
+  }
+  .itemTitle.uncommon {
+    color: #68c976;
+  }
+  .itemTitle.rare {
+    color: #597fd5;
+  }
+  .itemTitle.epic {
+    color: #7e42be;
+  }
+  .itemTitle.legendary {
+    color: #eeb120;
+  }
+
+  img {
+    width: 100%;
+    height: 55px;
+    display: block;
+    margin: 10px 0;
+  }
+
+  .itemCost {
+    color: #fff;
+
+    span {
+      color: gold;
+    }
+  }
+}
+
+.item.common {
+  border-color: #fff;
+}
+.item.uncommon {
+  border-color: #68c976;
+}
+.item.rare {
+  border-color: #597fd5;
+}
+.item.epic {
+  border-color: #7e42be;
+}
+.item.legendary {
+  border-color: #eeb120;
+}

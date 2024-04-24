@@ -1,0 +1,21 @@
+.gameButton {
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.openChestButton {
+  background: #ffe124;
+  margin-top: 20px;
+}
+
+.sellItemButton {
+  background: #ffe124;
+  margin: 10px auto 0 auto;
+  cursor: pointer;
+  font-size: 12px;
+  padding: 10px 5px;
+  display: block;
+}
